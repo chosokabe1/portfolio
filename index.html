@@ -5,10 +5,11 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>ハイパー先生のページ</title>
+	<title>ハイパーのページ</title>
 	<!-- Bootstrap -->
 	<!-- <link rel="stylesheet" href="neko_files/bootstrap.min.css"> -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
 	<style>
 		body {
 			padding-top: 50px;
@@ -52,12 +53,12 @@
 		<div class="container">
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-					<span class="sr-only">ネコ先生のページ</span>
+					<span class="sr-only">ハイパーのページ</span>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="#">Project Nyaan</a>
+				<a class="navbar-brand" href="#">Project Hyper</a>
 			</div>
 			<div id="navbar" class="collapse navbar-collapse">
 				<ul class="nav navbar-nav">
@@ -73,11 +74,11 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-6">
-					<h1>ネコ先生のページ</h1>
+					<h1>ハイパーのページ</h1>
 					<p class="lead">エンジニアのポートフォリオ公開中。</p>
 				</div>
 				<div class="col-sm-6">
-					<img src="neko_files/neko.png" class="img-responsive">
+					<img src="computer_programming_man.png" class="img-responsive">
 				</div>
 			</div>
 		</div>
@@ -85,7 +86,7 @@
   <div class="container">
 		<div class="starter-template">
 			<div class="row text-center">
-				<h2 id="works">見かけによらず、好奇心旺盛でパワー！！</h2>
+				<h2 id="works">見かけによらず、好奇心旺盛でパワフル！！</h2>
 				<div class="col-sm-4">
 					<h2 class="color-brain"><span class="glyphicon glyphicon-cloud icon-size"></span><br>しりたい</h2>
 					<p>脳の仕組みと、<br>それを模したAIに、<br>興味があります。</p>
@@ -101,58 +102,61 @@
 			</div>
 			<hr>
 			<h2 id="works">Works</h2>
-			<div class="row">
+			<div class="row work">
 				<div class="col-sm-6">
-					<h3>微生物の検出分類 - ネコ用UI/UXライブラリ</h3>
-					<p>近年微生物活用が検討されています。顕微鏡を用いた手作業による微生物探索が活用のボトルネックになっています。そこで検出をYOLOにより実装し、分類をCNNによって開発中です。</p>
+					<h3>微生物の検出分類 - 微生物培養コスト削減</h3>
+					<p>近年、微生物活用が検討されています。しかし、顕微鏡を用いた手作業による微生物探索の作業が必要であることが活用のボトルネックになっています。そこで、顕微鏡映像中に写る微生物の検出をYOLOにより実装しました。分類をCNNによって開発中です。微生物データは非公開のため、右図には一般的な画像分類の例を示しています。近年の深層学習はネコ科の中でもさらに詳しく分類できるようになっています。</p>
+					<p>引用：ImageNet(ILSVRC2012)データセットクラス別画像、https://starpentagon.net/analytics/ilsvrc2012_class_image/、(参照：2022/07/30)
+					</p>
 				</div>
 				<div class="col-sm-6">
-					<img src="neko_files/work1.png" class="img-responsive">
+					<img src="classification.png" class="img-responsive">
 				</div>
 			</div>
-			<div class="row">
+			<div class="row work">
 				<div class="col-sm-6">
 					<h3>果物の等級判定 - 農家向け自動選果機</h3>
-					<p>果物の選果作業には多大な労力がかかり、農業従事者を悩ませてきました。近年注目を集めるFintechサービスのためのシステム開発フレームワークです。高度なセキュリティ機能とブロックチェーン技術を実装し、多数の使いやすいAPIにより、超高速で金融向けサービスの開発を可能にします。</p>
+					<p>果物の選果作業には多大な労力がかかり、農業従事者を悩ませてきました。そこで、深層学習を用いて容器に入った果物の個体の領域を検出するプログラムを実装しました。さらに、果物の等級を分類するシステムを開発中です。画像データは非公開のため、イメージ画像を掲載させて頂きます。</p>
 				</div>
 				<div class="col-sm-6">
-					<img src="neko_files/work2.png" class="img-responsive">
+					<img src="itigo6.png" class="img-responsive">
 				</div>
 			</div>
-			<div class="row">
+			<div class="row work">
 				<div class="col-sm-6">
 					<h3>GLOCAS - 研究ユニットサイト</h3>
-					<p>研究者のためのソーシャルコミュニケーションサービスです。自由とは、無料のネコ飯を食べることではなく、だれにも束縛されない、移動・食事・睡眠を意味しています。</p>
+					<p>研究者のための研究内容紹介サイトです。私含めた2人体制で役割分担をし、ウェブサイト制作しました。私は特に、レンタルサーバーの設定やコーディングを担当しました。リンクはこちらです。　<a href="http://glocas.net/">glocas.net</a></p>
 				</div>
 				<div class="col-sm-6">
-					<img src="neko_files/work3.png" class="img-responsive">
+					<img src="glocas.png" class="img-responsive">
+				</div>
+			</div>
+      <div class="row work">
+				<div class="col-sm-6">
+					<h3>AI目覚まし - ユニットサイト - 個人開発中
+          </h3>
+					<p>近年、スマホなどの娯楽の発展は目覚ましいです。一方で、その依存性からついつい夜更かしをしてしまい生活リズムの乱れが問題となっています。特に、朝にアラームを鳴らしても、オフにしてから二度寝してしまうという人も多いのではないでしょうか。そこで、寝室を撮影しAIで画像分類をすることで、体が起き上がらないとアラームが鳴りやまないシステムを提案します。現在、開発中です。</p>
+				</div>
+				<div class="col-sm-6">
+					<img src="alerm.jpg" class="img-responsive">
 				</div>
 			</div>
       <div class="row">
 				<div class="col-sm-6">
-					<h3>AI目覚まし - ユニットサイト - 作成中</h3>
-					<p>ついつい夜更かししちゃう人のためのソーシャルコミュニケーションサービスです。自由とは、無料のネコ飯を食べることではなく、だれにも束縛されない、移動・食事・睡眠を意味しています。</p>
+					<h3>ジェスチャ入力システム - 工場向けシステム - チーム開発中</h3>
+					<p>製造業では、製造物の情報をシステムに入力するという作業があります。油汚れが発生する現場ではデータ入力の度に手袋を外します。これにはコストがかかり、生産性が低下しています。そこで、作業者が手袋をはめたままデータ登録を可能にするシステムを提案します。具体的には、深層学習を用いて作業者がとるジェスチャーを分類し、それを入力とします。現在、チームにより開発中です。私は特に、深層学習のモデル作りを担当しています。</p>
 				</div>
 				<div class="col-sm-6">
-					<img src="neko_files/work3.png" class="img-responsive">
-				</div>
-			</div>
-      <div class="row">
-				<div class="col-sm-6">
-					<h3>ジェスチャ入力システム - 工場向けシステム - 作成中</h3>
-					<p>ついつい夜更かししちゃう人のためのソーシャルコミュニケーションサービスです。自由とは、無料のネコ飯を食べることではなく、だれにも束縛されない、移動・食事・睡眠を意味しています。</p>
-				</div>
-				<div class="col-sm-6">
-					<img src="neko_files/work3.png" class="img-responsive">
+					<img src="tebukuro.png" class="img-responsive">
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-sm-12">
 					<h3>Others</h3>
 					<ul>
-						<li>Github<a href="https://github.com/chosokabe1">https://github.com/chosokabe1</a></li>
-						<li>Qiita</li>
-						<li>Blog</li>
+						<li>Github　<a href="https://github.com/chosokabe1">https://github.com/chosokabe1</a></li>
+						<!-- <li>Qiita</li>
+						<li>Blog</li> -->
 					</ul>
 				</div>
 			</div>
